@@ -3,77 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />   
         <title>Resume Template</title>
     </head>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        h1,
-        h2 {
-            color: #007bff;
-        }
-        .header {
-            text-align: center;
-        }
-        .header h1 {
-            margin: 10px 0;
-        }
-        .contact {
-            margin: 10px 0;
-            font-size: 14px;
-        }
-        .contact a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .section {
-            margin: 20px 0;
-        }
-        .section h2 {
-            margin-bottom: 10px;
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 5px;
-        }
-        .item {
-            margin-bottom: 15px;
-        }
-        .item h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #555;
-        }
-        .item p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-        .skills ul {
-            list-style: none;
-            padding: 0;
-        }
-        .skills ul li {
-            display: inline-block;
-            background: #007bff;
-            color: #fff;
-            padding: 5px 10px;
-            margin: 5px 5px 5px 0;
-            border-radius: 4px;
-        }
-    </style>
 
     <body>
         <main class="container">
@@ -81,7 +13,7 @@
                 <h1>Stephen McLemore</h1>
                 <p class="contact">
                     Email:
-                    <a href="stephenmclemore217@gmail.com"
+                    <a href="mailto:stephenmclemore217@gmail.com"
                         >stephenmclemore217@gmail.com</a
                     >
                     | Phone: (502)612-8163 | LinkedIn:
@@ -103,19 +35,27 @@
                     <h3>Delivery Specialist - Johnstone Supply</h3>
                     <p>Jan 2020 - Present</p>
                     <p>
-                        -Works closely with management and customers to ensure deliveries are made in a manner that 
-complies with customer expectations. -Perform any necessary warehouse duties as needed, including acting as warehouse manager in the case 
-of manager absence.  -Utilize company software daily for the purposes of managing inventory, and accessing/editing 
-customer orders and warehouse stock transfers. 
+                        <ul>
+                            <li>Works closely with management and customers to ensure deliveries are made in a manner that 
+                                complies with customer expectations.</li>
+                            <li>Perform any necessary warehouse duties as needed, including acting as warehouse manager in the case 
+                                of manager absence.</li>
+                            <li>Utilize company software daily for the purposes of managing inventory, and accessing/editing 
+                                customer orders and warehouse stock transfers.</li>
+                        </ul>
                     </p>
                 </div>
                 <div class="item">
                     <h3>Laser Cutter Operator - ERL Commercial Marine</h3>
                     <p>May 2019 - Jan 2020</p>
                     <p>
-                        -Operated laser cutting machine via computer console for the fabrication of parts used for marine 
-vessels. -Maintained strong communication with management and other staff members to ensure the parts 
-produced met the standards required for further processing. -Worked independently with little to no supervision as an integral part of the team.
+                        <ul>
+                            <li>Operated laser cutting machine via computer console for the fabrication of parts used for marine 
+                                vessels.</li>
+                            <li>Maintained strong communication with management and other staff members to ensure the parts 
+                                produced met the standards required for further processing.</li>
+                            <li>Worked independently with little to no supervision as an integral part of the team.</li>
+                        </ul>
                     </p>
                 </div>
             </section>
@@ -144,6 +84,9 @@ produced met the standards required for further processing. -Worked independentl
             </section>
             <section class="section">
                 <h2>Projects</h2>
+                <div #projects-page-link class="project-link">
+                    <a href="projects.html" target="_blank">Click here to view projects</a>
+                </div>
                 <div class="item">
                     <h3>Task Manager(Dec 2024)</h3>
                     <p>
