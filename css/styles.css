@@ -34,6 +34,16 @@
             color: #007bff;
             text-decoration: none;
         }
+        .summary-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            border-bottom: 2px solid #007bff;
+        }
+        .summary {
+            border-bottom: none !important;
+        }
         .section {
             margin: 20px 0;
         }
@@ -72,7 +82,7 @@
             margin-top: 20px;
         }
 
-        .project-link {
+        .link {
             display: inline-block;
             background: #007bff;
             color: #fff;
@@ -81,19 +91,19 @@
             border-radius: 4px;
         }
 
-        .project-link:hover {
+        .link:hover {
             background-color: #0056b3;
         }
 
-        .project-link a:link,
-        .project-link a:visited,
-        .project-link a:hover,
-        .project-link a:active {
+        .link a:link,
+        .link a:visited,
+        .link a:hover,
+        .link a:active {
             color: #fff;
             text-decoration: none;
         }
 
-        #projects-page-link {
+        #page-link {
             display: inline-block;
             background: #007bff;
             color: #fff;
